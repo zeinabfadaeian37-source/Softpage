@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Finexo - Professional Services">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="style.css" rel="stylesheet">
+    <title>zeinab_Fadaeian</title>
+</head>
+
+<body>
+    <header>
+        <h1>Finexo</h1>
+        <button class="menu-toggle" aria-label="Toggle navigation menu">☰</button>
+        <nav id="main-nav">
+            <a href="#" aria-current="page">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">SERVICES</a>
+            <a href="#">WHY US</a>
+            <a href="#">TEAM</a>
+            <a href="#">LOGIN</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <div class="hero">
+        <main>
+            <h2>CRYPTO CURRENCY</h2>
+            <p class="txt1">
+                Explicato esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid
+                error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat
+                modi impedit sequi.
+            </p>
+            <a href="#" class="read-more">Read More</a>
+        </main>
+    </div>
+
+    <div class="wrapper">
+        <div class="single-card">
+            <div class="img-area">
+                <img src="1.png" alt="Rome, Italy landscape">
+            </div>
+            <div class="info">
+                <h3>Recliner</h3>
+                <p class="txt-cart">beautiful</p>
+                <p>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                </p>
+                <p class="price">$749.95</p>
+            </div>
+        </div>
+
+        <div class="single-card">
+            <div class="img-area">
+                <img src="2.png" alt="Rome, Italy architecture">
+            </div>
+            <div class="info">
+                <h3>Armchair</h3>
+                <p class="txt-cart">beautiful</p>
+                <p>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                </p>
+                <p class="price">$749.95</p>
+            </div>
+        </div>
+
+        <div class="single-card">
+            <div class="img-area">
+                <img src="3.png" alt="Rome, Italy culture">
+            </div>
+            <div class="info">
+                <h3>OttomanLoveseat</h3>
+                <p class="txt-cart">beautiful</p>
+                <p>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                </p>
+                <p class="price">$749.95</p>
+            </div>
+        </div>
+
+        <div class="single-card">
+            <div class="img-area">
+                <img src="4.png" alt="Rome, Italy landmarks">
+            </div>
+            <div class="info">
+                <h3>OttomanLoveseat</h3>
+                <p class="txt-cart">beautiful</p>
+                <p>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                </p>
+                <p class="price">$749.95</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">+90-09653124587</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Tables </h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Coffee Table</a></li>
+                        <li><a href="#">Side Table</a></li>
+                        <li><a href="#">Dining Table </a></li>
+                        <li><a href="#">Console Table </a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>online shop</h4>
+                    <ul>
+                        <li><a href="#">Loveseat</a></li>
+                        <li><a href="#">Recliner</a></li>
+                        <li><a href="#">Armchair</a></li>
+                        <li><a href="#">Couch</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const mainNav = document.getElementById('main-nav');
+            const navLinks = document.querySelectorAll('nav a');
+
+            menuToggle.addEventListener('click', () => {
+                mainNav.classList.toggle('active');
+                menuToggle.setAttribute('aria-expanded', mainNav.classList.contains('active'));
+            });
+
+            navLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    if (window.innerWidth <= 768) {
+                        mainNav.classList.remove('active');
+                        menuToggle.setAttribute('aria-expanded', 'false');
+                    }
+                });
+            });
+
+            window.addEventListener('resize', () => {
+                if (window.innerWidth > 768) {
+                    mainNav.classList.remove('active');
+                    menuToggle.setAttribute('aria-expanded', 'false');
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
