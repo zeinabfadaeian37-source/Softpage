@@ -1,19 +1,27 @@
-# 📱 Mobile-Friendly Web Page
+📱 Mobile-Friendly Web Page
 
-یک صفحه وب مدرن و مینیمال که با تمرکز بر **تجربه کاربری موبایل (Mobile-First Design)** طراحی شده است. این پروژه قدرت **HTML5** و **CSS3** را در ایجاد چیدمان‌های منعطف و تمیز بدون نیاز به فریم‌ورک‌های سنگین نشان می‌دهد.
+A modern and minimal web page built with a mobile-first approach, focusing on delivering an excellent user experience on smartphones. This project demonstrates the power of HTML5 and CSS3 in creating clean, flexible layouts without relying on heavy frameworks.
 
-## ✨ ویژگی‌های برجسته
-- **طراحی Mobile-First:** بهینه‌سازی شده برای بهترین نمایش در گوشی‌های هوشمند و سپس دسکتاپ.
-- **چیدمان تمیز و مدرن:** استفاده از فضای سفید (White Space) مناسب برای خوانایی بیشتر محتوا.
-- **کاملاً واکنش‌گرا (Responsive):** استفاده از `Media Queries` برای انطباق کامل با انواع ابعاد صفحه نمایش.
-- **سرعت بارگذاری بالا:** کدنویسی بهینه و سبک برای اجرای سریع در شبکه‌های موبایل.
-- **تایپوگرافی خوانا:** انتخاب فونت و اندازه‌های مناسب برای مطالعه راحت در نمایشگرهای کوچک.
+✨ Key Features
 
-## 🛠 تکنولوژی‌های استفاده شده
-- **HTML5:** برای ساختاردهی استاندارد و معنایی (Semantic) محتوا.
-- **CSS3:** استفاده از **Flexbox** و **Grid** برای چیدمان و استایل‌دهی مدرن.
-- **Responsive Design:** بهره‌گیری از Viewport meta tag و واحدهای منعطف (مثل rem و %).
+Mobile-First Design: Optimized primarily for smartphones, then enhanced for desktop screens.
 
+Clean & Modern Layout: Generous use of white space for improved readability.
 
-## 🚀 نحوه اجرا
-مشاهده آنلاین: [https://zeinabfadaeian37-source.github.io/Softpage/]
+Fully Responsive: Uses media queries to adapt flawlessly to all screen sizes.
+
+Fast Loading: Lightweight, optimized code for smooth performance on mobile networks.
+
+Readable Typography: Carefully selected fonts and sizes for comfortable reading on small screens.
+
+🛠 Technologies Used
+
+HTML5: Semantic, standards-based content structure.
+
+CSS3: Modern layouts and styling using Flexbox and Grid.
+
+Responsive Design: Viewport meta tag and flexible units (rem, %, etc.).
+
+🚀 Live Demo
+
+https://zeinabfadaeian37-source.github.io/Softpage
